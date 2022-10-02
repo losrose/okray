@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Global variables
-ID=80a64f2b-7c9e-4f89-9f5a-6893aa719a29
+ID=8f1f7140-1e88-413a-ab34-f2cc94e9e049
 PORT=80
 
 # config xray
@@ -27,7 +27,6 @@ cat << EOF > /etc/config.json
       "port": $PORT,
       "protocol": "trojan",
       "settings": {
-        "decryption": "none",
         "clients": [
           {
             "password": "$ID"
